@@ -1,5 +1,9 @@
-This project is used as a learning resource for my course, Working Class Java.
+## Sudoku Solver in Java
 
-In order to actually build and launch this project, you will need to configure some kind of build tool. I have included the build.gradle and settings.gradle files, which should allow you to set the project up using Gradle, should that be your preferred tool. 
+**Project Overview**
+This project implements a Sudoku solver using Java. The solver uses a backtracking algorithm to find solutions to a given Sudoku puzzle, ensuring that each row, column, and 3x3 subgrid contains all digits from 1 to 9 without repetition.
 
-The easiest solution would be to create a new Gradle project in your preferred IDE, and then copy and paste the source files, and the gradle files form this repo over to the new project.
+**Features**
+- Backtracking Algorithm: Efficiently solves Sudoku puzzles by exploring all possible solutions.
+- Input Validation: Ensures the initial Sudoku grid is valid before attempting to solve it.
+- User Interface: Simple console-based UI for inputting Sudoku puzzles and displaying solutions.
